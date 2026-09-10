@@ -29,8 +29,8 @@ Built on the **STM32F446RE (ARM Cortex-M4)**, this project deliberately bypasses
 * **Power Management:** LM2596 DC-DC Buck Converter (12V to 5V logic isolation)
 
 <p align="center">
-  <img src="link_foto_frontale_hardware.jpg" width="45%" />
-  <img src="link_foto_dettaglio_sensori.jpg" width="45%" />
+  <img src="Frontale1.jpeg" width="45%" />
+  <img src="laterale.jpeg" width="45%" />
 </p>
 
 ## 🧠 Software Architecture
@@ -48,7 +48,7 @@ To ensure system safety and logical transitions, the control loop is governed by
 ## 📊 Performance Evaluation
 The embedded telemetry data is exported directly to MATLAB for real-time evaluation. The system demonstrates strong setpoint tracking with a physiologically acceptable phase delay and effectively prevents derivative kicks during sharp target variations.
 
-![MATLAB Telemetry Plot](link_grafico_matlab.png)
+![MATLAB Telemetry Plot](analisiGrafici.png)
 
 ## 🔮 Future Developments
 * Migration from ultrasonic to Time-of-Flight (ToF) optical sensors (e.g., VL53L0X) to eliminate acoustic interference inside the tube.
